@@ -54,6 +54,8 @@ class Browser extends Component {
                                 }
                                 <CardBody>
                                     <CardTitle><h3>{plant.name}</h3></CardTitle>
+                                    <CardText><h4>{plant.latin}</h4></CardText>
+                                    <CardText><h5>{plant.category}</h5></CardText>
                                     <CardText>{plant.description}</CardText>
                                 </CardBody>
                             </Card>
